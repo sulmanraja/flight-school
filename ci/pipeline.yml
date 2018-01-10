@@ -8,11 +8,11 @@ resources:
 - name: staging-app
   type: cf
   source:
-    api: https://api.run.pivotal.io
-    username: sulman.raja@gmail.com
-    password: Kulsoom47
-    organization: sulman-raja-org
-    space: development
+    api: https://api.system.lab09.den.ecsteam.io
+    username: admin
+    password: zWzfe0XlmT2YwBujYrVh97fA66Qna8y_
+    organization: ecsdev
+    space: sandbox
 
 jobs:
 - name: test-app
